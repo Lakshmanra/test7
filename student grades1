@@ -1,0 +1,47 @@
+sno=int(input('enter number'))
+sname=input('enter name')
+sgroup=input('enter group')
+s1=int(input('maths marks'))
+s2=int(input('chemistry'))
+s3=int(input('computer'))
+s4=int(input('telugu'))
+s5=int(input('english'))
+s6=int(input('onile'))
+total=s1+s2+s3+s4+s5+s6
+avg=total/6
+if avg<=35:
+    print('fail')
+elif avg<=91:
+    print('o grade')
+elif avg<=81:
+    print('a grade')
+elif avg<=71:
+    print('b grade')
+elif avg<=61:
+    print('c grade')
+output:
+enter number
+1
+enter name
+nani
+enter group
+mccs
+maths marks
+77
+chemistry
+66
+computer
+88
+telugu
+45
+english
+88
+onile
+77
+o grade
+
+
+** Process exited - Return Code: 0 **
+Press Enter to exit terminal
+Online 
+
